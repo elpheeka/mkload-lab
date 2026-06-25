@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+  <title>简明指南 · 中彩网官网首页</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f9fafb;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Helvetica Neue', sans-serif;
+      color: #1e293b;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .page {
+      max-width: 680px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* 开场短句 — 宽松留白，安静 |
+       窄正文宽度由 .page 控制 */
+    .opening {
+      margin: 1.2rem 0 2.5rem 0;
+      font-size: 1.5rem;
+      font-weight: 350;
+      letter-spacing: 0.01em;
+      line-height: 1.4;
+      color: #0f172a;
+      border-left: 3px solid #b0c4de;
+      padding-left: 1.2rem;
+    }
+
+    .opening em {
+      font-style: normal;
+      background: linear-gradient(120deg, #e0f2fe 0%, #e0f2fe 40%, transparent 80%);
+      padding: 0 0.15em;
+    }
+
+    /* 承接段落 */
+    .context {
+      margin-bottom: 2.7rem;
+      font-size: 1rem;
+    }
+
+    .context p {
+      margin-bottom: 1.2rem;
+    }
+
+    .context a {
+      color: #1e3a5f;
+      text-decoration: none;
+      border-bottom: 1px solid #94a3b8;
+      transition: border-color 0.2s, color 0.2s;
+      font-weight: 450;
+    }
+
+    .context a:hover {
+      border-bottom-color: #1e3a5f;
+      color: #0b1c2e;
+    }
+
+    /* 特点列表 — 极简卡片 */
+    .feature-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+      margin: 2.8rem 0 2.8rem 0;
+    }
+
+    .feature-item {
+      background: #ffffff;
+      padding: 1.2rem 1.4rem;
+      border-radius: 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.03);
+      border: 1px solid #e9edf2;
+      transition: box-shadow 0.15s;
+    }
+
+    .feature-item:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .feature-item strong {
+      display: block;
+      font-weight: 550;
+      font-size: 1.025rem;
+      margin-bottom: 0.3rem;
+      color: #1e293b;
+    }
+
+    .feature-item span {
+      font-size: 0.95rem;
+      color: #3b4a5c;
+    }
+
+    /* 温和结尾 + 提醒 */
+    .gentle-footer {
+      margin-top: 2.4rem;
+      padding: 1.6rem 0 0.2rem 0;
+      border-top: 1px solid #dce2ea;
+    }
+
+    .gentle-footer p {
+      font-size: 0.96rem;
+      margin-bottom: 1rem;
+      color: #334155;
+    }
+
+    .reminder {
+      background: #f1f5f9;
+      padding: 1.2rem 1.4rem;
+      margin: 1.6rem 0 0.8rem 0;
+      border-left: 3px solid #b7c9dd;
+      font-size: 0.95rem;
+      color: #1e293b;
+    }
+
+    .reminder a {
+      color: #1e3a5f;
+      text-decoration: none;
+      border-bottom: 1px solid #94a3b8;
+      font-weight: 450;
+    }
+
+    .reminder a:hover {
+      border-bottom-color: #1e3a5f;
+    }
+
+    .faq-note {
+      margin: 2rem 0 0.5rem 0;
+      font-size: 0.95rem;
+      color: #475569;
+    }
+
+    .faq-note summary {
+      cursor: pointer;
+      font-weight: 480;
+      padding: 0.3rem 0;
+      display: inline-block;
+      border-bottom: 1px dashed #94a3b8;
+    }
+
+    .faq-note details {
+      margin-bottom: 0.8rem;
+    }
+
+    .faq-note details p {
+      margin-top: 0.5rem;
+      padding-left: 0.2rem;
+      color: #334155;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #dee4ec;
+      margin: 1.8rem 0;
+    }
+
+    /* 小屏适配 */
+    @media (max-width: 480px) {
+      body {
+        padding: 1.5rem 0.75rem;
+      }
+      .opening {
+        font-size: 1.3rem;
+        padding-left: 1rem;
+      }
+      .feature-item {
+        padding: 1rem 1rem;
+      }
+      .reminder {
+        padding: 1rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- 开场短句 -->
+    <div class="opening">
+      一个入口，<br>
+      <em>指向清晰的站点指南</em>。
+    </div>
+
+    <!-- 承接段落：简明 + 访问角度 -->
+    <div class="context">
+      <p>
+        如果你正在寻找关于福利彩票和体育彩票的综合信息门户，<a href="https://chinese-cnlottery.com">中彩网官网首页</a>是许多人会优先参考的地址。它并不替你做决定，而是将开奖结果、玩法说明、公告动态整理在一起，方便浏览。
+      </p>
+      <p>
+        对于初次接触彩票信息页面的用户，提前了解页面结构、信息来源以及更新习惯，会让每次访问都更有把握。下面列出几个实用特点，方便你快速熟悉这个网站。
+      </p>
+    </div>
+
+    <!-- 特点列表（卡片式） -->
+    <div class="feature-grid">
+      <div class="feature-item">
+        <strong>信息归类清晰</strong>
+        <span>双色球、大乐透、3D、排列三……不同彩种分别展示，不必在混杂的内容中自己筛选。左侧导航或顶部菜单按类别组织，减少寻找成本。</span>
+      </div>
+      <div class="feature-item">
+        <strong>开奖结果常规更新</strong>
+        <span>每日/每期开奖后，页面会同步最新号码与奖级设置。时间戳明确，方便核对。建议留意页面标注的“更新于”时间，以确认时效。</span>
+      </div>
+      <div class="feature-item">
+        <strong>规则与公告集中展示</strong>
+        <span>玩法规则、派奖活动、风险提示等内容通常放在独立板块。阅读这些官方说明比道听途说更可靠，也能帮你理解奖级和中奖条件。</span>
+      </div>
+      <div class="feature-item">
+        <strong>简洁的浏览体验</strong>
+        <span>整体版式偏重信息密度，没有过多装饰。对于习惯快速获取数据的人而言，这种直给风格反而高效。移动端适配基本可用。</span>
+      </div>
+    </div>
+
+    <!-- 温和提醒 + 嵌入链接（自然嵌入句子） -->
+    <div class="gentle-footer">
+      <p>
+        网站内容由运营方维护，建议你将其作为参考之一，同时保持独立判断。如果你想从起点开始探索，可以直接前往 <a href="https://chinese-cnlottery.com">中彩网官网首页</a>，那里包含了最新开奖与基础指引。
+      </p>
+
+      <!-- 附加提醒块 -->
+      <div class="reminder">
+        <strong>📌 访问提醒</strong>
+        <p style="margin-top: 0.4rem; margin-bottom: 0;">
+          第一次打开网站时，可先花几分钟浏览导航栏目，了解数据位置。部分页面含有弹窗说明或风险提示，建议仔细阅读，不跳过。另外，彩票信息仅供参考，理性参与更为重要。
+        </p>
+      </div>
+
+      <!-- FAQ 摘要 — 仅做简洁问答 -->
+      <div class="faq-note">
+        <details>
+          <summary>这个网站是官方销售平台吗？</summary>
+          <p>中彩网官网首页主要提供开奖信息、玩法介绍和公告，本身不直接在线销售彩票。购彩请通过合法线下实体店或当地官方授权渠道。</p>
+        </details>
+        <details>
+          <summary>开奖结果多久更新一次？</summary>
+          <p>通常在每个彩种开奖结束后不久就会同步更新，但具体时间取决于数据中心传输。遇到延迟时可稍后刷新页面查看。</p>
+        </details>
+      </div>
+
+      <hr>
+      <p style="font-size: 0.85rem; color: #65748c; margin-top: 0.4rem;">
+        — 整理于 公开信息 · 内容方向仅供参考
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
